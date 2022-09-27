@@ -16,13 +16,13 @@ main (){
 }
 
 float perfeito (int num){
-	int i, soma;
-	for(i=num; i<num; i--){
-		num/2;
-		soma = soma + num;
+	int i, soma = 0;
+	for(i=1; i<=num/2; i++){
+		if(num % i ==0)
+		soma = soma + i;
 	}
-	if(num == soma){
+	if(soma == num){
 		return 1;
-	}
+	}else
 	return 0;
 }
