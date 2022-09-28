@@ -4,7 +4,7 @@
 float som(int num) { 
 	float s = 1;
 	for(float n = 1; n <= num; n++){
-		s = s + 1/n;
+		s = s + (num*num + 1)/(num+3);
 	}
 	return s;
 }

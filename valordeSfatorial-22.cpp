@@ -4,6 +4,11 @@
 float som(int num) { 
 	float s = 1;
 	for(float n = 1; n <= num; n++){
+		float i = 1;
+		while(i<n){
+			num *= i;
+			i++ ;
+		}
 		s = s + 1/n;
 	}
 	return s;
