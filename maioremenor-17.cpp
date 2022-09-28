@@ -9,7 +9,7 @@ scanf("%d", &num);
 menor = num;
 maior = num;
 
-for(i=1; i<=3; i++){
+for(i=1; i<=50; i++){
 
 printf("Informe o numero %i: ", i+1); 
 scanf("%d", &num); 
